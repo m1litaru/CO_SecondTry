@@ -6,6 +6,8 @@ public class MainClass {
     float y;
     String Gigi;
 
+    Boolean isStudent;
+
     public void showAgeOfGigi() {
         System.out.println(Gigi + " " + age);
     }
