@@ -9,6 +9,8 @@ public class MainClass {
     float y;
     String Gigi;
 
+    Boolean isStudent;
+
     Date dateOfBirth;
 
     Date dateOfHirement;
