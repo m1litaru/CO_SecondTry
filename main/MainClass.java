@@ -9,4 +9,10 @@ public class MainClass {
     public void showAgeOfGigi() {
         System.out.println(Gigi + " " + age);
     }
+
+    String secondString;
+
+    public MainClass(String secondString) {
+        this.secondString = secondString;
+    }
 }
