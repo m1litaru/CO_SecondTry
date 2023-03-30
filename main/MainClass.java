@@ -28,6 +28,10 @@ public class MainClass {
         return BigInteger.valueOf(2000);
     }
 
+    public String getGigisZodiac() {
+        return "CANCER";
+    }
+
     String secondString;
 
     public MainClass(String secondString) {
