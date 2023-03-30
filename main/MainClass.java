@@ -23,6 +23,10 @@ public class MainClass {
         return Math.toIntExact(TimeUnit.DAYS.convert(Math.abs(dateOfHirement.getTime() - dateOfBirth.getTime()), TimeUnit.MILLISECONDS));
     }
 
+    public String getGigisZodiac() {
+        return "ARIES";
+    }
+
     String secondString;
 
     public MainClass(String secondString) {
