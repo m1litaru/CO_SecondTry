@@ -1,5 +1,6 @@
 package main;
 
+import java.math.BigInteger;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
@@ -21,6 +22,10 @@ public class MainClass {
 
     public int getDays() {
         return Math.toIntExact(TimeUnit.DAYS.convert(Math.abs(dateOfHirement.getTime() - dateOfBirth.getTime()), TimeUnit.MILLISECONDS));
+    }
+
+    public BigInteger getGigiProperties() {
+        return BigInteger.valueOf(2000);
     }
 
     public String getGigisZodiac() {
