@@ -24,7 +24,7 @@ public class MainClass {
     }
 
     public String getGigisZodiac() {
-        return "ARIES";
+        return "CANCER";
     }
 
     String secondString;
